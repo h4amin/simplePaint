@@ -1,0 +1,11 @@
+NAME: "JSketch"
+
+
+all:
+	javac *.java
+
+run: all
+	java $(NAME)
+
+clean:
+	rm -rf *.class
